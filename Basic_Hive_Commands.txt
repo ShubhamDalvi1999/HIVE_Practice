@@ -1,0 +1,3 @@
+#in cloudera to start hive we need hadoop name node to come out of safe mode first
+hdfs dfsadmin -safemode leave
+
